@@ -32,10 +32,6 @@ All the codes and checkpoints are publicly available at [huggingface]() and [git
 
 ### 🔍 Install
 
-To install the inference framework, you can follow the steps below:
-Here’s a polished version of the text:
-
----
 
 To install the inference framework, follow the steps below:
 
