@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["openmoa"]
+
+[project]
+name = "openmoa"
+version = "0.0.1"
+dependencies = [
+  "vllm==0.6.4.post1",
+  "simple-parsing==0.1.6",
+]
+requires-python = ">=3.10"
+authors = [
+    {name = "zhilin wang", email = "linzwcs@gmail.com"},
+]
+maintainers = [
+    {name = "zhilin wang", email = "linzwcs@gmail.com"},
+]
+description = "Self MoA framework"
+readme = "Readme.md"
+license = {file = "LICENSE.txt"}
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+"Bug Tracker" = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
