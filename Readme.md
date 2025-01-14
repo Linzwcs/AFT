@@ -104,7 +104,7 @@ Currently, we only release the `Llama-AFT-On-Policy` model, and you can set `mod
 1. `Llama-AFT-On-Policy`
 
 
-## Subjective Evaluation
+## Benchmark Performance
 We performed evaluations on the MT-Bench and AlpacaEval 2, and the results are presented below:
 
 <table border="1">
