@@ -108,8 +108,7 @@ Currently, we only release the `Llama-AFT-On-Policy` model, and you can set `mod
 We performed evaluations on the MT-Bench and AlpacaEval 2, and the results are presented below:
 
 <table border="1">
-  <caption>Evaluation on <strong>MT-Bench</strong> and <strong>AlpacaEval 2</strong></caption>
-  <thead>
+ <thead>
     <tr>
       <th><strong>Model</strong></th>
       <th><strong>MT-Bench 1st turn</strong></th>
