@@ -55,7 +55,7 @@ To install the inference framework, follow the steps below:
    pip install -e .
    ```
 
-### 🔍  Inference
+### Inference
 
 We provide a sample inference code in inference.py. You can execute it by running the following command:
 
@@ -78,7 +78,7 @@ The detailed meanings of the keys in the config file are illustrated below：
       temperature: 0.7
       top_p: 0.95
       max_tokens: 4096
-      n: 5 # number of proposals at  first step
+      n: 5 # number of proposals at first step
 
   aggregation_params:
       temperature: 0.7
@@ -93,7 +93,7 @@ The detailed meanings of the keys in the config file are illustrated below：
 ```
 
 
-### 🛒 Released Models
+### Released Models
 Currently, we have released the four AFT models described in our paper. You can use these models by setting the `model_name` in the configuration file to the corresponding model names.
 
 **Supported Models**:
@@ -103,7 +103,7 @@ Currently, we have released the four AFT models described in our paper. You can 
   4. `Linzwcs/Mistral-AFT-Off-Policy`
 
 
-## Benchmark Performance
+## 🔍 Benchmark Performance
 We performed evaluations on the MT-Bench and AlpacaEval 2, and the results are presented below:
 
 <table border="1">
@@ -210,6 +210,9 @@ We performed evaluations on the MT-Bench and AlpacaEval 2, and the results are p
 
 
 
-### License
+      
+## 🌺🌺🌺 Acknowledgement
+
+## License
 The code and model weights are licensed under [LICENSE](./LICENSE).
 
