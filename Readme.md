@@ -23,14 +23,14 @@ Our analysis reveals that aggregation learning converges faster and more stably 
 All the codes and checkpoints are publicly available at [huggingface]() and [github](). 
 
 
-### 🔥 News
+## 🔥 News
 (🔥News) Jan 1, 2025🔥The inference code sample for [**AFT**](https://github.com/Linzwcs/AFT/tree/main) has been released 🎉.
 
 
 ## 🚀🚀🚀 Quick Start
 
 
-### 🔍 Install
+###  Install
 
 
 To install the inference framework, follow the steps below:
@@ -70,7 +70,7 @@ We provide a sample inference code in inference.py. You can execute it by runnin
 The detailed meanings of the keys in the config file are illustrated below：
 
 ```yaml
-  model_name: <path to AFT model>
+  model_name: <path to AFT model> # path to AFT model 
   
   # The proposal_params and aggregation_params can be seen to as SamplingParams 
   # and will be sent to vllm.chat().
@@ -78,30 +78,29 @@ The detailed meanings of the keys in the config file are illustrated below：
       temperature: 0.7
       top_p: 0.95
       max_tokens: 4096
-      n: 5
+      n: 5 # number of proposals at  first step
 
   aggregation_params:
       temperature: 0.7
       top_p: 0.95
       max_tokens: 4096
-      n: 5 
+      n: 5 # number of aggregations per step
 
   vllm_seed: 2024 # vllm backend seed
 
-  hidden_layer: 0  # Number of aggregation layers, excluding the final layer
-  final_aggregation: True # Indicates whether this is the final aggregation step
+
+  num_aggregation: 2  # Number of aggregation layers
 ```
 
 
 ### 🛒 Released Models
-
-
-
-Currently, we only release the `Llama-AFT-On-Policy` model, and you can set `model_name` to this model.
+Currently, we have released the four AFT models described in our paper. You can use these models by setting the `model_name` in the configuration file to the corresponding model names.
 
 **Supported Models**:
-
-1. `Llama-AFT-On-Policy`
+  1. `Linzwcs/Llama-AFT-On-Policy`
+  2. `Linzwcs/Llama-AFT-Off-Policy`
+  3. `Linzwcs/Mistral-AFT-Off-Policy`
+  4. `Linzwcs/Mistral-AFT-Off-Policy`
 
 
 ## Benchmark Performance
@@ -209,8 +208,6 @@ We performed evaluations on the MT-Bench and AlpacaEval 2, and the results are p
 </table>
 
 
-      
-### 🌺🌺🌺 Acknowledgement
 
 
 ### License

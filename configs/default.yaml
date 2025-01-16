@@ -1,4 +1,4 @@
-model_name: /mnt/petrelfs/share_data/harold/llama_onp
+model_name:  /mnt/petrelfs/share_data/harold/llama_onp # path to AFT model
 
 proposal_params:
     temperature: 0.7
@@ -12,7 +12,6 @@ aggregation_params:
     max_tokens: 4096
     n: 5
 
-vllm_seed: 2019
+vllm_seed: 2025
 
-hidden_layer: 0  # Number of aggregation layers, excluding the final layer
-final_aggregation: True # Indicates whether this is the final aggregation step
+num_aggregation: 2  # Number of aggregation layers, excluding the final layer

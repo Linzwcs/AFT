@@ -7,10 +7,10 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["openmoa"]
+include = ["aft"]
 
 [project]
-name = "openmoa"
+name = "aft"
 version = "0.0.1"
 dependencies = [
   "vllm==0.6.4.post1",
