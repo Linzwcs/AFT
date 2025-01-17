@@ -222,7 +222,7 @@ We evaluate our models on two benchmark datasets: MT-Bench and AlpacaEval 2, and
 
 
       
-## 🌺 Acknowledgement
+## Acknowledgement
 This project is mainly motivated and supported by several existing works:
 
 1. [Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/abs/2406.04692): we draw inspiration from MoA to propose aggregation leanring.
