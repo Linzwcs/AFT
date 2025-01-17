@@ -73,17 +73,13 @@ The detailed meanings of the keys in the config file are illustrated below：
   
   # The proposal_params and aggregation_params are instances of SamplingParams 
   # and will be sent to vllm.chat().
-  proposal_params:
-      temperature: 0.7
-      top_p: 0.95
-      max_tokens: 4096
-      n: 5 # number of initial proposals
-
-  aggregation_params:
-      temperature: 0.7
-      top_p: 0.95
-      max_tokens: 4096
-      n: 5 # number of aggregations per subsequent step
+  generation_params:
+    temperature: 0.7
+    top_p: 0.95
+    max_tokens: 4096
+    n: 5  # number of propsals per step
+    final_layer_temperature: 0.7
+    final_layer_top_p: 1
 
   vllm_seed: 2024 # vllm backend seed
 

@@ -1,16 +1,12 @@
-model_name:  /mnt/petrelfs/share_data/harold/llama_onp # path to AFT model
+model_name:  Linzwcs/Llama-AFT-On-Policy # path to AFT model
 
-proposal_params:
+generation_params:
     temperature: 0.7
     top_p: 0.95
     max_tokens: 4096
     n: 5
-
-aggregation_params:
-    temperature: 0.7
-    top_p: 0.95
-    max_tokens: 4096
-    n: 5
+    final_layer_temperature: 0.7
+    final_layer_top_p: 1
 
 vllm_seed: 2025
 
