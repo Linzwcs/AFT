@@ -101,7 +101,7 @@ These two types of base models, combined with the two datasets, form our four AF
 
 
 ## Models
-We build our models based on two model families: the [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B/tree/main) and [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1). 
+We build our models based on two model families: the [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B/tree/main) and [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1). 
 We train the models on both on-policy and off-policy training data, yielding altogether four AFT models, as listed below:
 
 **Supported Models**:
