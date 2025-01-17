@@ -120,12 +120,17 @@ We evaluate our models on two benchmark datasets: MT-Bench and AlpacaEval 2, and
 <table border="1">
  <thead>
     <tr>
+      <td></td>
+      <td colspan="3" style="text-align: center;"><strong>MT-Bench</strong></td>
+      <td colspan="2" style="text-align: center;"><strong>AlpacaEval</strong></td>
+    </tr>
+    <tr>
       <th><strong>Model</strong></th>
-      <th><strong>MT-Bench 1st turn</strong></th>
-      <th><strong>MT-Bench 2nd turn</strong></th>
-      <th><strong>MT-Bench Avg.</strong></th>
-      <th><strong>AlpacaEval 2 LC(%)</strong></th>
-      <th><strong>AlpacaEval 2 WR(%)</strong></th>
+      <th><strong>1st turn</strong></th>
+      <th><strong>2nd turn</strong></th>
+      <th><strong>Avg.</strong></th>
+      <th><strong> LC(%)</strong></th>
+      <th><strong>WR(%)</strong></th>
     </tr>
   </thead>
   <tbody>
