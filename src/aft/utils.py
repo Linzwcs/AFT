@@ -20,8 +20,7 @@ def load_MoA_model(
     if backend == "vllm":
         model = MoA(
             engine=engine,
-            prop_configs=config.proposal_params,
-            agg_configs=config.aggregation_params,
+            gen_configs=config.generation_params,
             num_aggregation=config.num_aggregation,
             # final_agg=config.final_aggregation,
         )

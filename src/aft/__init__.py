@@ -8,4 +8,4 @@ from .module import (
     ResponseModule,
     Module,
 )
-from .config import Config, AgentArgs
+from .config import Config, GenerationArgs

@@ -4,7 +4,7 @@ from . import (
     MoAInstance,
     Module,
     Sequential,
-    AgentArgs,
+    GenerationArgs,
 )
 
 
@@ -55,8 +55,7 @@ class MoA(Module):
     def __init__(
         self,
         engine,
-        prop_configs: AgentArgs,
-        agg_configs: AgentArgs,
+        gen_configs: GenerationArgs,
         num_aggregation=2,
         # final_agg=True,
     ):
@@ -64,23 +63,23 @@ class MoA(Module):
         self.engine = engine
         self.proposor = ProposorLayer(
             engine=engine,
-            **prop_configs.dict(),
+            **gen_configs.gen_config(),
         )
-
         self.aggs = Sequential(
             *(
-                AggLayer(engine, **agg_configs.dict())
+                AggLayer(
+                    engine,
+                    **gen_configs.gen_config(),
+                )
                 for i in range(num_aggregation - 1)
             )
         )
-        final_agg_params = agg_configs.to_dict()
+        final_agg_params = gen_configs.final_gen_config()
         final_agg_params["n"] = 1
-        final_agg_params["top_p"] = 1
         self.head = AggLayer(engine, **final_agg_params)
 
     def forward(self, x, *args, **kwargs):
         x = self.proposor(x)
-
         x = self.aggs(x)
         x = self.head(x, *args, **kwargs)
         return x
