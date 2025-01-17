@@ -23,7 +23,7 @@ An AFT model, fine-tuned from **Llama3.1-8B-Base** with only **64K** data, achie
 
 
 ## 🔔 News
-- **[20/01/2024]** Our code and models are open-sourced!
+- **[20/01/2025]** Our code and models are open-sourced!
 - **[20/01/2025]** Our paper is released on arXiv: https://arxiv.org/abs/XXX.
 
 
