@@ -93,6 +93,12 @@ We consider two types of training datasets, differing in the proposal type, i.e.
 *On-policy* proposals are obtained by leveraging in-context learning (ICL) with demonstrations, prompting the base LLM to generate multiple responses for a given query.
 These two types of base models, combined with the two datasets, form our four AFT models.
 
+**Released Datasets**:
+
+  1. `Linzwcs/AFT-off-policy`
+  2. `Linzwcs/AFT-on-policy-llama`
+  3. `Linzwcs/AFT-on-policy-mistral`
+
 > *Our datasets will be released soon.*
 
 
@@ -100,7 +106,7 @@ These two types of base models, combined with the two datasets, form our four AF
 We build our models based on two model families: the [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B/tree/main) and [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1). 
 We train the models on both on-policy and off-policy training data, yielding altogether four AFT models, as listed below:
 
-**Supported Models**:
+**Released Models**:
 
   1. [`Linzwcs/Llama-AFT-Off-Policy`](https://huggingface.co/linzw/Llama-AFT-Off-Policy)
   2. [`Linzwcs/Llama-AFT-On-Policy`](https://huggingface.co/linzw/Llama-AFT-On-Policy)
