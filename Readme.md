@@ -102,10 +102,10 @@ We train the models on both on-policy and off-policy training data, yielding alt
 
 **Supported Models**:
 
-  1. `Linzwcs/Llama-AFT-On-Policy`
-  2. `Linzwcs/Llama-AFT-Off-Policy`
-  3. `Linzwcs/Mistral-AFT-Off-Policy`
-  4. `Linzwcs/Mistral-AFT-Off-Policy`
+  1. [`Linzwcs/Llama-AFT-Off-Policy`](https://huggingface.co/linzw/Llama-AFT-Off-Policy)
+  2. [`Linzwcs/Llama-AFT-On-Policy`](https://huggingface.co/linzw/Llama-AFT-On-Policy)
+  3. [`Linzwcs/Mistral-AFT-Off-Policy`](https://huggingface.co/linzw/Mistral-AFT-Off-Policy)
+  4. [`Linzwcs/Mistral-AFT-On-Policy`](https://huggingface.co/linzw/Mistral-AFT-On-Policy)
 
 You can use these models by setting the `model_name` in the configuration file to the corresponding model names. Please refer to our paper for training details.
 
