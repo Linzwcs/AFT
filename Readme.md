@@ -93,7 +93,7 @@ We consider two types of training datasets, differing in the proposal type, i.e.
 *On-policy* proposals are obtained by leveraging in-context learning (ICL) with demonstrations, prompting the base LLM to generate multiple responses for a given query.
 These two types of base models, combined with the two datasets, form our four AFT models.
 
-**Released Datasets**:
+**Datasets to be Released**:
 
   1. `Linzwcs/AFT-off-policy`
   2. `Linzwcs/AFT-on-policy-llama`
