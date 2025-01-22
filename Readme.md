@@ -2,8 +2,8 @@
 
 <div align="center">
   <a href="https://github.com/Linzwcs/AFT/tree/main"><img src="https://img.shields.io/static/v1?label=AFT&message=Github&color=blue&logo=github-pages"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:AFT&color=red&logo=arxiv"></a> &ensp;
-  <a href="https://huggingface.co/GuanjieChen/Skip-DiT"><img src="https://img.shields.io/static/v1?label=AFT&message=HuggingFace&color=yellow"></a> &ensp;
+  <a href="https://arxiv.org/pdf/2501.11877"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:AFT&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://huggingface.co/linzw/Llama-AFT-On-Policy"><img src="https://img.shields.io/static/v1?label=AFT&message=HuggingFace&color=yellow"></a> &ensp;
 </div>
 
 <div align="center">
