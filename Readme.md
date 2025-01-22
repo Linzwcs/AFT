@@ -17,7 +17,7 @@
 
 
 
-This repository contains the official PyTorch implementation of the paper: **[From Drafts to Answers: Aggregation Fine-Tuning for Large Language Models](https://arxiv.org/abs/2501.11877)**. 
+This repository contains the official PyTorch implementation of the paper: **[From Drafts to Answers: Unlocking LLM Potential via Aggregation Fine-Tuning](https://arxiv.org/abs/2501.11877)**. 
 In this work, we introduce Aggregation Fine-Tuning (**AFT**), a supervised fine-tuning paradigm where the model learns to synthesize multiple draft responses, referred to as prposals, into a single, refined answer, termed aggregation. 
 An AFT model, fine-tuned from **Llama3.1-8B-Base** with only **64K** data, achieves a **41.3\%** LC win rate on AlpacaEval 2, surpassing significantly larger LLMs such as **Llama3.1-405B-Instruct** and GPT-4.
 
