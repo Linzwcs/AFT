@@ -236,6 +236,19 @@ This project is mainly motivated and supported by several existing works:
 
 2. [vLLM](https://github.com/vllm-project/vllm): we construct the generation pipeline based on vLLM. 
 
+## 📝 Citation
+
+```
+@misc{li2025draftsanswersunlockingllm,
+      title={From Drafts to Answers: Unlocking LLM Potential via Aggregation Fine-Tuning}, 
+      author={Yafu Li and Zhilin Wang and Tingchen Fu and Ganqu Cui and Sen Yang and Yu Cheng},
+      year={2025},
+      eprint={2501.11877},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.11877}, 
+}
+```
 
 ## License
 The code and model weights are licensed under [LICENSE](./LICENSE).
