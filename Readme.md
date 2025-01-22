@@ -1,4 +1,4 @@
-# Aggregation Fine-Tuning for Large Language Models
+# From Drafts to Answers: Unlocking LLM Potential via Aggregation Fine-Tuning
 
 <div align="center">
   <a href="https://github.com/Linzwcs/AFT/tree/main"><img src="https://img.shields.io/static/v1?label=AFT&message=Github&color=blue&logo=github-pages"></a> &ensp;
